@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+}
+.home {
+  flex: 5;
+}
+
+.homeWidgets {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  padding-left: 20px;
+}

@@ -1,0 +1,64 @@
+.widgetLg {
+  flex: 2;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  padding: 20px;
+}
+
+.widgetLgTitle {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.widgetLgTable {
+  width: 100%;
+  border-spacing: 20px;
+}
+
+.widgetLgAnnouncement {
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+.widgetLgUser {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.widgetLgNameSpace {
+  display: flex;
+  flex-direction: column;
+}
+
+.widgetLgName {
+  white-space: nowrap;
+}
+
+.widgetLgCourseCode {
+  font-weight: 500;
+  font-size: small;
+  color: #333;
+  padding-top: 2px;
+}
+
+.widgetLgImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.widgetLgDescription {
+  flex: 3;
+  min-width: 60%;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 10px;
+  color: #777;
+}

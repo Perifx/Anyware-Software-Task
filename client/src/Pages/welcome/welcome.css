@@ -1,0 +1,37 @@
+.welcomeContainer {
+  height: 100vh;
+  position: relative;
+  background-image: url("https://p0.pikist.com/photos/790/249/background-copy-space-texture-blue-concept-activity-student-study-learning.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.welcomeWrapper {
+  position: absolute;
+  top: 30vh;
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcomeMsg {
+  margin-bottom: 30px;
+  color: #eee;
+}
+
+.loginBtn {
+  text-align: center;
+  border: 2px solid var(--color-to);
+  border-radius: 10px;
+  padding: 8px 20px;
+  background-color: var(--color-to);
+  color: #fff;
+  cursor: pointer;
+}
+
+.loginBtn:hover {
+  background-color: #fff;
+  color: var(--color-to);
+}
