@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const BASE_URL = "http://localhost:3030/announcement";
+const BASE_URL = "https://anyware-software-task-api.vercel.app/announcement";
 
 export const getAllAnnouncements = createAsyncThunk(
   "announcement/getAllAnnouncements",
