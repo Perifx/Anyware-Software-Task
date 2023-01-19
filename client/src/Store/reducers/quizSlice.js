@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const BASE_URL = "http://localhost:3030/quiz";
+const BASE_URL = "https://anyware-software-task-api.vercel.app/quiz";
 
 export const getAllQuizes = createAsyncThunk(
   "quiz/getAllQuizes",
